@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
+        "projectName": "EmailBossProject.Bl",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
+        "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
+              },
+              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
+        "projectName": "EmailBossProject.Core",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
+        "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
+        "projectName": "EmailBossProject.Model",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
+        "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

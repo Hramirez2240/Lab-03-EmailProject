@@ -1,0 +1,17 @@
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Bl.deps.json
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Bl.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\ref\EmailBossProject.Bl.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Bl.pdb
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Core.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Model.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Core.pdb
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\bin\Debug\net5.0\EmailBossProject.Model.pdb
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.csproj.AssemblyReference.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.AssemblyInfoInputs.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.AssemblyInfo.cs
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.csproj.CoreCompileInputs.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.csproj.CopyComplete
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\ref\EmailBossProject.Bl.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Bl\obj\Debug\net5.0\EmailBossProject.Bl.pdb

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51f752db-7822-4373-a0a6-1f940dafd094": {
+      "ProjectGuid": "51f752db-7822-4373-a0a6-1f940dafd094",
+      "DisplayName": "EmailBossProject.Api",
+      "ColorIndex": 0
+    },
+    "6000e198-9663-4848-b17b-c56942e83b01": {
+      "ProjectGuid": "6000e198-9663-4848-b17b-c56942e83b01",
+      "DisplayName": "EmailBossProject.Core",
+      "ColorIndex": 1
+    },
+    "9ced3193-6615-4df5-b603-5a106ae42749": {
+      "ProjectGuid": "9ced3193-6615-4df5-b603-5a106ae42749",
+      "DisplayName": "EmailBossProject.Model",
+      "ColorIndex": 2
+    },
+    "5c157606-41b4-4d28-85cb-c979a14edf7a": {
+      "ProjectGuid": "5c157606-41b4-4d28-85cb-c979a14edf7a",
+      "DisplayName": "EmailBossProject.Services",
+      "ColorIndex": 3
+    },
+    "80c4b1ed-664f-4889-898b-729826e14090": {
+      "ProjectGuid": "80c4b1ed-664f-4889-898b-729826e14090",
+      "DisplayName": "EmailBossProject.Bl",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

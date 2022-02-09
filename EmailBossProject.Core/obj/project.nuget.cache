@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c4RqjD+zoYn0W1ywtXOGE9LmkvprvpzRzPVfhTRbhtaw1nGCGJS+pQJSV7nlO9SV8BngpidC6NXeeAE+lcf8Og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hrami\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\hrami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

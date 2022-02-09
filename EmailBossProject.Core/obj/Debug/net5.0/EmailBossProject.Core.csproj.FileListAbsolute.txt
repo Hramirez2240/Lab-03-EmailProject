@@ -1,0 +1,12 @@
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\bin\Debug\net5.0\EmailBossProject.Core.deps.json
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\bin\Debug\net5.0\EmailBossProject.Core.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\bin\Debug\net5.0\ref\EmailBossProject.Core.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\bin\Debug\net5.0\EmailBossProject.Core.pdb
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.csproj.AssemblyReference.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.AssemblyInfoInputs.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.AssemblyInfo.cs
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\ref\EmailBossProject.Core.dll
+C:\Users\hrami\Desktop\WorkShop - Solvex\EmailBossProject\EmailBossProject.Core\obj\Debug\net5.0\EmailBossProject.Core.pdb
