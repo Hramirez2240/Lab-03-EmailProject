@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sNEMSM/95e9DtgOUsszfXAV9rcnrqV/c0XCYkPP53DZ5OprUDRnlZV7SZ9sWHNZAKf70Ybt40OfD9GfKNt1qng==",
+  "dgSpecHash": "IuWQzFUBwa5XqM4yog+AP650gg+0KoiWV3WufDqiF+D/OKRrVbHdSo+txHO9LSrg7iCwny2frq0s+cT109FDIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
+  "projectFilePath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hrami\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hrami\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",

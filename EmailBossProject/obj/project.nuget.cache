@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QhxW+1HW/5wl+9+HnR1uK/pEN9z2aR7tcRUKW/S5K+Z7qp5ehmBY5TC42r0g9D1/w6QBYvcQAbtPOpb80EwjQ==",
+  "dgSpecHash": "ymMm0rF7z+BHFz2U4/AoQt9bHTYk1Tp3pCbM9Ay78byC615V+zK1vXggMhHpNHEXDAfZ7i1V24eOVpTkt5Qlhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject\\EmailBossProject.Api.csproj",
+  "projectFilePath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject\\EmailBossProject.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hrami\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\hrami\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

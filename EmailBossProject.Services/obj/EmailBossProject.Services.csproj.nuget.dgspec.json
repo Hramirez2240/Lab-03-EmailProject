@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj": {}
+    "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {
+    "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
         "projectName": "EmailBossProject.Bl",
-        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj",
         "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\obj\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://solvexdominicana.pkgs.visualstudio.com/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
               },
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj"
               }
             }
           }
@@ -75,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+    "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
         "projectName": "EmailBossProject.Core",
-        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj",
         "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,7 +94,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://solvexdominicana.pkgs.visualstudio.com/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -114,6 +116,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [
@@ -135,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
+    "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
         "projectName": "EmailBossProject.Model",
-        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj",
         "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\obj\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,14 +159,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://solvexdominicana.pkgs.visualstudio.com/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
               }
             }
           }
@@ -215,14 +222,14 @@
         }
       }
     },
-    "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj": {
+    "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj",
+        "projectUniqueName": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj",
         "projectName": "EmailBossProject.Services",
-        "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj",
+        "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\EmailBossProject.Services.csproj",
         "packagesPath": "C:\\Users\\hrami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\obj\\",
+        "outputPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hrami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,20 +240,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://solvexdominicana.pkgs.visualstudio.com/_packaging/SolvexLibraries%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Bl\\EmailBossProject.Bl.csproj"
               },
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Core\\EmailBossProject.Core.csproj"
               },
-              "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
-                "projectPath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj"
+              "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj": {
+                "projectPath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\EmailBossProject\\EmailBossProject.Model\\EmailBossProject.Model.csproj"
               }
             }
           }
@@ -268,6 +276,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [

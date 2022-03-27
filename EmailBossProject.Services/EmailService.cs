@@ -1,6 +1,7 @@
 ﻿using EmailBossProject.Core.Model;
 using EmailBossProject.Model.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,31 +12,39 @@ using System.Threading.Tasks;
 
 namespace EmailBossProject.Services
 {
-    public class EmailService
+
+    public class EmailService 
     {
+        public readonly EmailSettings _settings;
+
+        public EmailService(EmailSettings settings)
+        {
+            _settings = settings;
+        }
+
         public async Task<bool> SendEmail(string message, List<string> to)
         {
-            var authentication = new NetworkCredential("hramrez3@gmail.com", "ElGoldoZozoYLolaJiji2240");
+            var authentication = new NetworkCredential(_settings.Email, _settings.Password);
 
-            var client = new SmtpClient("smtp.gmail.com")
+            var client = new SmtpClient(_settings.Host)
             {
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
                 Credentials = authentication,
-                Port = 587,
+                Port = _settings.Port,
                 EnableSsl = true
             };
 
-            var mailAddress = new MailAddress("hramrez3@gmail.com", "Hector Ramirez");
+            var mailAddress = new MailAddress(_settings.Email, _settings.DisplayName);
 
             var mailMessage = new MailMessage()
             {
                 Subject = "Boss Change!!",
-                SubjectEncoding = System.Text.Encoding.UTF8,
+                SubjectEncoding = Encoding.UTF8,
                 From = mailAddress,
 
                 Body = message,
-                BodyEncoding = System.Text.Encoding.UTF8,
+                BodyEncoding = Encoding.UTF8,
             };
 
             foreach (var destinatary in to)
@@ -48,9 +57,10 @@ namespace EmailBossProject.Services
             return true;
         }
 
-        public async static void CreateMessage(string oldbossmail, string newbossmail, string employeename, string newbossname)
+        public static async void CreateMessage(string oldbossmail, string newbossmail, string employeename, string newbossname)
         {
             var email = new EmailService();
+
             string mensaje = $"Hello to everyone, we want to inform that {newbossname} will be the next boss of {employeename}, best regards";
 
             List<string> toAddress = new()

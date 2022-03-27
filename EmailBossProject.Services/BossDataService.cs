@@ -1,4 +1,5 @@
-﻿using EmailBossProject.Model.Context;
+﻿using EmailBossProject.Bl.Dto;
+using EmailBossProject.Model.Context;
 using EmailBossProject.Model.Entities;
 using System;
 using System.Collections.Generic;

@@ -12,7 +12,9 @@ namespace EmailBossProject.Services.IoC
         public static void AddServiceRegistry(this IServiceCollection services)
         {
             services.AddTransient<IBossService, BossService>();
-            services.AddTransient<IEmployeeService, EmployeeService>();
+            /*services.AddTransient<IEmployeeService, EmployeeService>();
+            services.AddSingleton<IEmailService, EmailService>();*/
+            services.AddTransient<IExample, Example>();
         }
     }
 }

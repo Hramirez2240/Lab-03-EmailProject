@@ -2,6 +2,7 @@
 using EmailBossProject.Bl.Dto;
 using EmailBossProject.Model.Context;
 using EmailBossProject.Model.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +16,12 @@ namespace EmailBossProject.Services
        
     }
 
-    public class EmployeeService : BaseService<Employee, EmployeeDto>, IEmployeeService
+    public class EmployeeService : BaseService<Employee, EmployeeDto>
     {
+
         public EmployeeService(IApplicationDbContext context, IMapper mapper) : base(context, mapper)
         {
-   
+            
         }
 
         public override async Task<EmployeeDto> Edit(int id, EmployeeDto dto)
@@ -47,7 +49,7 @@ namespace EmailBossProject.Services
 
             newBossMail = BossDataService.GetBossData(_context, entity).Email;
 
-            EmailService.CreateMessage(oldBossMail, newBossMail, employeeName, newBossName);
+            _emailService.CreateMessage(oldBossMail, newBossMail, employeeName, newBossName);
 
             return _mapper.Map(entity, dto);
         }
